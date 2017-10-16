@@ -31,7 +31,7 @@ class App {
          * @var string
          * @see __construct
          */
-        private $host = "localhost";
+        private $host = "Your host";
 
         /**
          * Nom d'utilisateur pour la connexion à la base de données
@@ -39,7 +39,7 @@ class App {
          * @var string
          * @see __construct
          */
-        private $username = "gallerie";
+        private $username = "Your username";
 
         /**
          * Mot de passe pour la connexion à la base de donnée
@@ -47,7 +47,7 @@ class App {
          * @var string
          * @see __construct
          */
-        private $password = '123';
+        private $password = "Your Password";
 
         /**
          * Nom de la base de donnée.
@@ -55,7 +55,7 @@ class App {
          * @var string
          * @see __construct
          */
-        private $dbname = "lb_gallerie";
+        private $dbname = "Your DataBaseName";
 
 
         private $bdd;
