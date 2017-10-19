@@ -40,12 +40,3 @@ function messageUser()
     }
     return $mes;
 }
-
-
-function showEmail()
-{
-    $req = App::query('SELECT email FROM lb_users WHERE login="'.$_SESSION["login"].'"');
-    $fetch = $req->fetch(PDO::FETCH_ASSOC);
-    echo $fetch["email"];
-
-}
