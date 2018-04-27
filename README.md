@@ -1,7 +1,5 @@
 # Gallery
-
 My first project, not maintenained at this time
-=======
 # PHP Gallery for MVC usage
 
 - DB connection with PDO (you can easily configure the very beginning of App.php),
